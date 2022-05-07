@@ -43,4 +43,5 @@ pwd
                                  #add 'products', to apps.py
 python manage.py makemigrations
 python manage.py migrate          #run above commands anytime you make changes to models.py
+python manage.py shell            #add products to admin easily
 

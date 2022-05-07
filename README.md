@@ -38,3 +38,5 @@ python manage.py runserver              #get the url to open project in new wind
 python manage.py migrate                #sync database with project
 python manage.py createsuperuser
 python manage.py startapp products
+pwd
+#go to src/products/models.py and edit

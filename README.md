@@ -39,4 +39,8 @@ python manage.py migrate                #sync database with project
 python manage.py createsuperuser
 python manage.py startapp products
 pwd
-#go to src/products/models.py and edit
+                                 #go to src/products/models.py and edit
+                                 #add 'products', to apps.py
+python manage.py makemigrations
+python manage.py migrate          #run above commands anytime you make changes to models.py
+

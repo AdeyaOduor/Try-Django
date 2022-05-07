@@ -37,3 +37,4 @@ ls
 python manage.py runserver              #get the url to open project in new window, from here just open project in new editor
 python manage.py migrate                #sync database with project
 python manage.py createsuperuser
+python manage.py startapp products

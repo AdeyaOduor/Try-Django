@@ -40,8 +40,9 @@ python manage.py createsuperuser
 python manage.py startapp products
 pwd
                                  #go to src/products/models.py and edit
-                                 #add 'products', to apps.py
+                                 #add 'products', 'pages',to apps.py
 python manage.py makemigrations
 python manage.py migrate          #run above commands anytime you make changes to models.py
 python manage.py shell            #add products to admin easily
 
+**edit; pages, views.py, url.py, templates

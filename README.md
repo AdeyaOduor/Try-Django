@@ -46,4 +46,4 @@ python manage.py migrate          #run above commands anytime you make changes t
 python manage.py shell            #add products to admin easily
 
 **edit; pages, views.py, url.py, templates
-**edit; products, views.py, url.py, templates
+**edit; products, views.py, url.py, templates,forms.py
